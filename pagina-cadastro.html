@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <title>Criar Usuário</title>
+</head>
+
+<body>
+  <main>
+    <section class="leftcolum"></section>
+    <section class="rigthcolum">
+      <div>
+        <h1 class="cadastro">CRIAR NOVO USUÁRIO</h1>
+
+
+        <form id="formularioCadastro">
+
+          <label id="labelNomeCadastro" class="cadastro" for="nomeCadastro">NOME OU APELIDO:</label> <br>
+          <input id="nomeCadastro" class="cadastro" name="nomeCadastro" type="text"
+            placeholder="Exemplo: João da Silva " />
+
+
+          <label id="labelEmailCadastro" class="cadastro" for="e-mailCadastro">INFORME UM E-MAIL PARA
+            CADASTRO:</label><br>
+          <input id="emailCadastro" class="cadastro" name="e-mailCadastro" type="email"
+            placeholder="User Name (e-mail)" />
+
+          <label id="labelSenhaCadastro" class="cadastro" for="senhaCadastro">CRIE UMA SENHA:</label> <br>
+          <input id="senhaCadastro" class="cadastro" name="senhaCadastro" type="password" placeholder="Exemplo:1234 " />
+
+
+          <label id="labelConfirmaSenhaCadastro" class="cadastro" for="confirmaSenhaCadastro">CONFIRME A SENHA:</label>
+
+          <input id="confirmaSenhaCadastro" class="cadastro" name="confirmaSenhaCadastro" type="password"
+            placeholder="Confirme a senha" />
+
+          <input class="btnCadastro" id="criarConta" type="submit" value="CRIAR CONTA">
+
+        </form>
+
+        <button id="voltarLogin" type="button">VOLTAR PARA PÁGINA DE LOGIN</button>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="./JS/pagina-cadastro.js"></script>
+</body>
+
+</html>
